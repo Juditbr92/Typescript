@@ -14,8 +14,13 @@ export class Contacts {
     }
 
     public printCalendar(){
-        console.log(this.people);
+        for(let person of this.people){ 
+            for(let key in person ){
+                if(typeof(person[key]) !== "function"){
+                    console.log(`${key} - ${person[key]}`);
+                }
+            }
+        }
     }
 }
-
 

@@ -1,6 +1,6 @@
 // Reto 2. Prueba la clase person
 
-import { Person } from "./Typescript/person"
+import { Person } from "./person"
 
 let person2 = new Person("Maria", 35, "Calle Merurio")
 
