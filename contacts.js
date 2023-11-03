@@ -14,7 +14,7 @@ var Contacts = /** @class */ (function () {
             var person = _a[_i];
             for (var key in person) {
                 if (typeof (person[key]) !== "function") {
-                    console.log("".concat(key, " ").concat(person[key]));
+                    console.log("".concat(key, " - ").concat(person[key]));
                 }
             }
         }
