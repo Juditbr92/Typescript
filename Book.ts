@@ -55,15 +55,14 @@ export class Books {
         this.editorial = editorial;
     }
 
-    public toString(): string {
+    public toString() {
         return (
-        `Title - ${this.title}
-        Number of pages - ${this.nPages} 
-        ISBN - ${this.isbn}
-        Author - ${this.author}
-        Editorial - ${this.editorial}`)
+            `Título - ${this.title}\n` +
+            `Número de páginas - ${this.nPages}\n` +
+            `ISBN - ${this.isbn}\n` +
+            `Autor - ${this.author}\n` +
+            `Editorial - ${this.editorial}\n`
+        );
     }
 }
-
-
 

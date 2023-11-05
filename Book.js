@@ -41,7 +41,11 @@ var Books = /** @class */ (function () {
         this.editorial = editorial;
     };
     Books.prototype.toString = function () {
-        return ("Title - ".concat(this.title, "\n        Number of pages - ").concat(this.nPages, " \n        ISBN - ").concat(this.isbn, "\n        Author - ").concat(this.author, "\n        Editorial - ").concat(this.editorial));
+        return ("T\u00EDtulo - ".concat(this.title, "\n") +
+            "N\u00FAmero de p\u00E1ginas - ".concat(this.nPages, "\n") +
+            "ISBN - ".concat(this.isbn, "\n") +
+            "Autor - ".concat(this.author, "\n") +
+            "Editorial - ".concat(this.editorial, "\n"));
     };
     return Books;
 }());
